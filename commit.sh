@@ -6,5 +6,4 @@ if [ $# -lt 1 ] || [ $# -gt 1 ]
 else
 	git add .
 	git commit -m $1
-	echo "commited with success!"
 fi
